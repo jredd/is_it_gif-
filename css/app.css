@@ -1,0 +1,32 @@
+html, body {
+  display: block;
+  height: 100%; }
+
+body {
+  background-color: #4cae4c; }
+
+#streams_container {
+  height: inherit;
+  display: block;
+  padding: 0; }
+  #streams_container h1 {
+    font-family: "plume-advertising";
+    color: #f7f7f7; }
+  #streams_container section {
+    display: inline-flex;
+    float: left;
+    height: 50%;
+    width: 50%; }
+    #streams_container section iframe {
+      width: 100%;
+      height: auto; }
+  #streams_container #stream1 {
+    background-color: #2aabd2; }
+  #streams_container #stream2 {
+    background-color: #337ab7; }
+  #streams_container #stream3 {
+    background-color: #b92c28; }
+  #streams_container #stream4 {
+    background-color: #eb9316; }
+
+/*# sourceMappingURL=app.css.map */

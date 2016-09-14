@@ -1,0 +1,47 @@
+
+$green: #4cae4c;
+
+
+html, body {
+  display: block;
+  height: 100%;
+}
+
+body {
+  background-color: $green;
+}
+
+
+
+#streams_container {
+  height: inherit;
+  display: block;
+  padding: 0;
+  h1 {
+    font-family: "plume-advertising";
+    color: #f7f7f7;
+  }
+  section {
+    iframe {
+      width: 100%;
+      height: auto;
+    }
+    display: inline-flex;
+    float: left;
+    height: 50%;
+    width: 50%;
+    //background-color: #2aabd2;
+  }
+  #stream1 {
+    background-color: #2aabd2;
+  }
+  #stream2 {
+    background-color: #337ab7;
+  }
+  #stream3 {
+    background-color: #b92c28;
+  }
+  #stream4 {
+    background-color: #eb9316;
+  }
+}
