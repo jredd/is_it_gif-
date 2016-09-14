@@ -1,17 +1,19 @@
 html, body {
   display: block;
-  height: 100%; }
+  height: 100%;
+  margin: 0;
+  padding: 0; }
 
 body {
-  background-color: #4cae4c; }
+  background-color: #4cae4c;
+  margin: 0;
+  padding: 0; }
 
 #streams_container {
   height: inherit;
   display: block;
+  margin: 0;
   padding: 0; }
-  #streams_container h1 {
-    font-family: "plume-advertising";
-    color: #f7f7f7; }
   #streams_container section {
     display: inline-flex;
     float: left;
@@ -39,5 +41,40 @@ body {
     #stream_chat_container section iframe {
       width: 100%;
       height: 100%; }
+
+#four_streams_with_chat_container {
+  height: 100%;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+  #four_streams_with_chat_container #four_streams {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #eb9316;
+    display: inline-block;
+    float: left; }
+    #four_streams_with_chat_container #four_streams section {
+      display: inline-flex;
+      float: left;
+      height: 50%;
+      width: 50%; }
+      #four_streams_with_chat_container #four_streams section iframe {
+        width: 100%;
+        height: auto; }
+  #four_streams_with_chat_container #four_chat {
+    margin: 0;
+    float: left;
+    padding: 0;
+    background-color: #2b669a;
+    height: 100%;
+    display: inline-block; }
+    #four_streams_with_chat_container #four_chat section {
+      padding: 0;
+      height: 100%; }
+      #four_streams_with_chat_container #four_chat section iframe {
+        width: 100%;
+        height: 100%; }
 
 /*# sourceMappingURL=app.css.map */
