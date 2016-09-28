@@ -113,3 +113,62 @@ body {
     }
   }
 }
+
+
+
+#twelve_streams_container {
+  padding: 0;
+  #twelve_streams{
+    height: inherit;
+    display: block;
+    margin: 0;
+    padding: 0;
+    section {
+      iframe {
+        width: 100%;
+        height: auto;
+      }
+      display: inline-flex;
+      float: left;
+      height: 50%;
+      width: 50%;
+      //background-color: #2aabd2;
+    }
+    #stream1 {
+      background-color: #2aabd2;
+    }
+    #stream2 {
+      background-color: #337ab7;
+    }
+    #stream3 {
+      background-color: #b92c28;
+    }
+    #stream4 {
+      background-color: #eb9316;
+    }
+    #stream5 {
+      background-color: #2aabd2;
+    }
+    #stream6 {
+      background-color: #337ab7;
+    }
+    #stream7 {
+      background-color: #b92c28;
+    }
+    #stream8 {
+      background-color: #eb9316;
+    }
+    #stream9 {
+      background-color: #2aabd2;
+    }
+    #stream10 {
+      background-color: #337ab7;
+    }
+    #stream11 {
+      background-color: #b92c28;
+    }
+    #stream12 {
+      background-color: #eb9316;
+    }
+  }
+}

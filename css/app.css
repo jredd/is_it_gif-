@@ -77,4 +77,44 @@ body {
         width: 100%;
         height: 100%; }
 
+#twelve_streams_container {
+  padding: 0; }
+  #twelve_streams_container #twelve_streams {
+    height: inherit;
+    display: block;
+    margin: 0;
+    padding: 0; }
+    #twelve_streams_container #twelve_streams section {
+      display: inline-flex;
+      float: left;
+      height: 50%;
+      width: 50%; }
+      #twelve_streams_container #twelve_streams section iframe {
+        width: 100%;
+        height: auto; }
+    #twelve_streams_container #twelve_streams #stream1 {
+      background-color: #2aabd2; }
+    #twelve_streams_container #twelve_streams #stream2 {
+      background-color: #337ab7; }
+    #twelve_streams_container #twelve_streams #stream3 {
+      background-color: #b92c28; }
+    #twelve_streams_container #twelve_streams #stream4 {
+      background-color: #eb9316; }
+    #twelve_streams_container #twelve_streams #stream5 {
+      background-color: #2aabd2; }
+    #twelve_streams_container #twelve_streams #stream6 {
+      background-color: #337ab7; }
+    #twelve_streams_container #twelve_streams #stream7 {
+      background-color: #b92c28; }
+    #twelve_streams_container #twelve_streams #stream8 {
+      background-color: #eb9316; }
+    #twelve_streams_container #twelve_streams #stream9 {
+      background-color: #2aabd2; }
+    #twelve_streams_container #twelve_streams #stream10 {
+      background-color: #337ab7; }
+    #twelve_streams_container #twelve_streams #stream11 {
+      background-color: #b92c28; }
+    #twelve_streams_container #twelve_streams #stream12 {
+      background-color: #eb9316; }
+
 /*# sourceMappingURL=app.css.map */
